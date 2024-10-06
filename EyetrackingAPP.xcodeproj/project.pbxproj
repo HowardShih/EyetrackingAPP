@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EB579C6B2CB3007D00FB690F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB579C522CB3007B00FB690F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB579C592CB3007B00FB690F;
+			remoteInfo = EyetrackingAPP;
+		};
+		EB579C752CB3007D00FB690F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB579C522CB3007B00FB690F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB579C592CB3007B00FB690F;
+			remoteInfo = EyetrackingAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB579C5A2CB3007B00FB690F /* EyetrackingAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyetrackingAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB579C6A2CB3007D00FB690F /* EyetrackingAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EyetrackingAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB579C742CB3007D00FB690F /* EyetrackingAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EyetrackingAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EB579C5C2CB3007B00FB690F /* EyetrackingAPP */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EyetrackingAPP;
+			sourceTree = "<group>";
+		};
+		EB579C6D2CB3007D00FB690F /* EyetrackingAPPTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EyetrackingAPPTests;
+			sourceTree = "<group>";
+		};
+		EB579C772CB3007D00FB690F /* EyetrackingAPPUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EyetrackingAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB579C572CB3007B00FB690F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB579C672CB3007D00FB690F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB579C712CB3007D00FB690F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB579C512CB3007B00FB690F = {
+			isa = PBXGroup;
+			children = (
+				EB579C5C2CB3007B00FB690F /* EyetrackingAPP */,
+				EB579C6D2CB3007D00FB690F /* EyetrackingAPPTests */,
+				EB579C772CB3007D00FB690F /* EyetrackingAPPUITests */,
+				EB579C5B2CB3007B00FB690F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB579C5B2CB3007B00FB690F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB579C5A2CB3007B00FB690F /* EyetrackingAPP.app */,
+				EB579C6A2CB3007D00FB690F /* EyetrackingAPPTests.xctest */,
+				EB579C742CB3007D00FB690F /* EyetrackingAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB579C592CB3007B00FB690F /* EyetrackingAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB579C7E2CB3007D00FB690F /* Build configuration list for PBXNativeTarget "EyetrackingAPP" */;
+			buildPhases = (
+				EB579C562CB3007B00FB690F /* Sources */,
+				EB579C572CB3007B00FB690F /* Frameworks */,
+				EB579C582CB3007B00FB690F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EB579C5C2CB3007B00FB690F /* EyetrackingAPP */,
+			);
+			name = EyetrackingAPP;
+			packageProductDependencies = (
+			);
+			productName = EyetrackingAPP;
+			productReference = EB579C5A2CB3007B00FB690F /* EyetrackingAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB579C692CB3007D00FB690F /* EyetrackingAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB579C812CB3007D00FB690F /* Build configuration list for PBXNativeTarget "EyetrackingAPPTests" */;
+			buildPhases = (
+				EB579C662CB3007D00FB690F /* Sources */,
+				EB579C672CB3007D00FB690F /* Frameworks */,
+				EB579C682CB3007D00FB690F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB579C6C2CB3007D00FB690F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EB579C6D2CB3007D00FB690F /* EyetrackingAPPTests */,
+			);
+			name = EyetrackingAPPTests;
+			packageProductDependencies = (
+			);
+			productName = EyetrackingAPPTests;
+			productReference = EB579C6A2CB3007D00FB690F /* EyetrackingAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB579C732CB3007D00FB690F /* EyetrackingAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB579C842CB3007D00FB690F /* Build configuration list for PBXNativeTarget "EyetrackingAPPUITests" */;
+			buildPhases = (
+				EB579C702CB3007D00FB690F /* Sources */,
+				EB579C712CB3007D00FB690F /* Frameworks */,
+				EB579C722CB3007D00FB690F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB579C762CB3007D00FB690F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EB579C772CB3007D00FB690F /* EyetrackingAPPUITests */,
+			);
+			name = EyetrackingAPPUITests;
+			packageProductDependencies = (
+			);
+			productName = EyetrackingAPPUITests;
+			productReference = EB579C742CB3007D00FB690F /* EyetrackingAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB579C522CB3007B00FB690F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					EB579C592CB3007B00FB690F = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					EB579C692CB3007D00FB690F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = EB579C592CB3007B00FB690F;
+					};
+					EB579C732CB3007D00FB690F = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = EB579C592CB3007B00FB690F;
+					};
+				};
+			};
+			buildConfigurationList = EB579C552CB3007B00FB690F /* Build configuration list for PBXProject "EyetrackingAPP" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB579C512CB3007B00FB690F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EB579C5B2CB3007B00FB690F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB579C592CB3007B00FB690F /* EyetrackingAPP */,
+				EB579C692CB3007D00FB690F /* EyetrackingAPPTests */,
+				EB579C732CB3007D00FB690F /* EyetrackingAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB579C582CB3007B00FB690F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB579C682CB3007D00FB690F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB579C722CB3007D00FB690F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB579C562CB3007B00FB690F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB579C662CB3007D00FB690F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB579C702CB3007D00FB690F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB579C6C2CB3007D00FB690F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB579C592CB3007B00FB690F /* EyetrackingAPP */;
+			targetProxy = EB579C6B2CB3007D00FB690F /* PBXContainerItemProxy */;
+		};
+		EB579C762CB3007D00FB690F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB579C592CB3007B00FB690F /* EyetrackingAPP */;
+			targetProxy = EB579C752CB3007D00FB690F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB579C7C2CB3007D00FB690F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB579C7D2CB3007D00FB690F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB579C7F2CB3007D00FB690F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EyetrackingAPP/Preview Content\"";
+				DEVELOPMENT_TEAM = FL39YDZ7L2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.howardshih.EyetrackingAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB579C802CB3007D00FB690F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EyetrackingAPP/Preview Content\"";
+				DEVELOPMENT_TEAM = FL39YDZ7L2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.howardshih.EyetrackingAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB579C822CB3007D00FB690F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FL39YDZ7L2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.howardshih.EyetrackingAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EyetrackingAPP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EyetrackingAPP";
+			};
+			name = Debug;
+		};
+		EB579C832CB3007D00FB690F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FL39YDZ7L2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.howardshih.EyetrackingAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EyetrackingAPP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EyetrackingAPP";
+			};
+			name = Release;
+		};
+		EB579C852CB3007D00FB690F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FL39YDZ7L2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.howardshih.EyetrackingAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EyetrackingAPP;
+			};
+			name = Debug;
+		};
+		EB579C862CB3007D00FB690F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FL39YDZ7L2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.howardshih.EyetrackingAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EyetrackingAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB579C552CB3007B00FB690F /* Build configuration list for PBXProject "EyetrackingAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB579C7C2CB3007D00FB690F /* Debug */,
+				EB579C7D2CB3007D00FB690F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB579C7E2CB3007D00FB690F /* Build configuration list for PBXNativeTarget "EyetrackingAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB579C7F2CB3007D00FB690F /* Debug */,
+				EB579C802CB3007D00FB690F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB579C812CB3007D00FB690F /* Build configuration list for PBXNativeTarget "EyetrackingAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB579C822CB3007D00FB690F /* Debug */,
+				EB579C832CB3007D00FB690F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB579C842CB3007D00FB690F /* Build configuration list for PBXNativeTarget "EyetrackingAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB579C852CB3007D00FB690F /* Debug */,
+				EB579C862CB3007D00FB690F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB579C522CB3007B00FB690F /* Project object */;
+}
